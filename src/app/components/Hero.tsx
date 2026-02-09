@@ -1,5 +1,5 @@
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
-import evelynPic from './images/evelyn-pic.svg';
+import evelynPic from '/src/app/components/images/evelyn-pic.svg';
 import { motion } from 'motion/react';
 import { Sparkles, ArrowDown } from 'lucide-react';
 import { useEffect, useState } from 'react';
