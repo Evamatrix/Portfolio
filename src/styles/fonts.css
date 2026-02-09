@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Load The Seasons font */
+@font-face {
+  font-family: 'The Seasons Bold';
+  src: url('/src/app/components/fonts/The Seasons Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
