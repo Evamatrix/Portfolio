@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
-import { Instagram, TrendingUp, Users, Heart, MessageCircle, Eye, BarChart3 } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
+import { Instagram, TrendingUp, Users, Heart, MessageCircle, Eye, BarChart3 } from 'lucide-react';
 
 export function SocialMediaExperience() {
   const stats = [
@@ -96,7 +96,7 @@ export function SocialMediaExperience() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Combining analytical thinking with creative flair to drive meaningful engagement 
+            Combining analytical thinking with creative flair to drive meaningful engagement
             and build authentic brand communities across social platforms.
           </p>
         </motion.div>
@@ -120,7 +120,7 @@ export function SocialMediaExperience() {
                   <motion.div
                     className={`absolute inset-0 bg-gradient-to-br ${stat.color} opacity-0 group-hover:opacity-10 transition-opacity`}
                   />
-                  
+
                   <div className="relative z-10">
                     <motion.div
                       className={`w-12 h-12 rounded-xl bg-gradient-to-br ${stat.color} flex items-center justify-center mb-4`}
@@ -204,31 +204,26 @@ export function SocialMediaExperience() {
 
                 {/* Image Grid */}
                 <div className="grid grid-cols-3 gap-2 mb-4">
-                  {[1, 2, 3, 4, 5, 6].map((i) => (
+                  {Array.from({ length: 6 }).map((_, index) => (
                     <motion.div
-                      key={i}
-                      className="aspect-square rounded-lg overflow-hidden bg-gradient-to-br from-primary/20 via-turquoise/20 to-secondary/20"
-                      initial={{ opacity: 0, scale: 0 }}
+                      key={index}
+                      className="aspect-square rounded-lg overflow-hidden bg-gray-100"
+                      initial={{ opacity: 0, scale: 0.9 }}
                       whileInView={{ opacity: 1, scale: 1 }}
                       viewport={{ once: true }}
-                      transition={{ delay: i * 0.05 }}
+                      transition={{ delay: index * 0.05 }}
                       whileHover={{ scale: 0.95 }}
                     >
                       <ImageWithFallback
-                        src={`https://images.unsplash.com/photo-${
-                          i === 1 ? '1611162617213-7d7a39e9b1d7' :
-                          i === 2 ? '1611162616475-46b635cb6868' :
-                          i === 3 ? '1611162618071-b39a2ec055fb' :
-                          i === 4 ? '1522202757859-7472b0973c69' :
-                          i === 5 ? '1611162616305-f8fe0b89e87e' :
-                          '1611162616999-8f8e82d34e48'
-                        }?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400&utm_source=figma&utm_medium=referral`}
-                        alt={`Social post ${i}`}
+                        src={`https://picsum.photos/seed/${index + 1}/400/400`}
+                        alt={`Social post ${index + 1}`}
                         className="w-full h-full object-cover"
                       />
                     </motion.div>
                   ))}
                 </div>
+
+
 
                 {/* Engagement Stats */}
                 <div className="flex items-center justify-between text-sm pt-4 border-t border-border">
@@ -321,7 +316,7 @@ export function SocialMediaExperience() {
               repeat: Infinity,
             }}
           />
-          
+
           <div className="relative z-10">
             <div className="flex items-start gap-4 mb-6">
               <motion.div
@@ -334,7 +329,7 @@ export function SocialMediaExperience() {
               <div>
                 <h3 className="mb-2">Featured Campaign: Brand Partnership</h3>
                 <p className="text-muted-foreground">
-                  Led a 3-month Instagram campaign for a sustainable fashion brand, 
+                  Led a 3-month Instagram campaign for a sustainable fashion brand,
                   focusing on authentic storytelling and user-generated content.
                 </p>
               </div>
