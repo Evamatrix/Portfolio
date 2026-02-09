@@ -1,4 +1,5 @@
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
+import evelynPic from './images/evelyn-pic.svg';
 import { motion } from 'motion/react';
 import { Sparkles, ArrowDown } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -254,7 +255,7 @@ export function Hero() {
                   {/* Animated border gradient */}
                   <div className="absolute inset-0 bg-gradient-to-br from-primary via-turquoise to-secondary opacity-20"></div>
                   <ImageWithFallback
-                    src="./src/app/components/images/evelyn-pic.svg"
+                    src={evelynPic}
                     alt="Photo of Evelyn Tran"
                     className="w-full h-full object-cover mix-blend-overlay opacity-90"
                   />
