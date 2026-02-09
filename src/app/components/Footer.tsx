@@ -4,10 +4,13 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="text-center space-y-4">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Evelyn Tran. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
             Built with React, TypeScript, and Tailwind CSS
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Last updated: Feburary 8, 2026
           </p>
         </div>
       </div>
