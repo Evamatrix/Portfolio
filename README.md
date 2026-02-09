@@ -1,7 +1,7 @@
 
-  # Portfolio Website for Graduate
+  # Evelyn Tran's Portfolio Website
 
-  This is a code bundle for Portfolio Website for Graduate. The original project is available at https://www.figma.com/design/QO17m1zsP55765QFPjkG8I/Portfolio-Website-for-Graduate.
+  Created with Figma!
 
   ## Running the code
 
