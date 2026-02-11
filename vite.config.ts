@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/Portfolio/',
   build: {
     outDir: 'dist',
+    emptyOutDir: true,
   },
   plugins: [
     react(),
