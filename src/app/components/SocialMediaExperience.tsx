@@ -191,7 +191,7 @@ export function SocialMediaExperience() {
                 <div className="flex items-center gap-3 mb-4 pb-4 border-b border-border">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary via-turquoise to-secondary"></div>
                   <div className="flex-1">
-                    <div className="font-medium text-foreground">@yourbrand</div>
+                    <div className="font-medium text-foreground">@evelynisagirl</div>
                     <div className="text-xs text-muted-foreground">Sponsored</div>
                   </div>
                   <motion.div
@@ -358,9 +358,6 @@ export function SocialMediaExperience() {
               </span>
               <span className="px-4 py-2 rounded-full bg-white text-sm border border-border">
                 Influencer Collaboration
-              </span>
-              <span className="px-4 py-2 rounded-full bg-white text-sm border border-border">
-                Content Challenge
               </span>
             </div>
           </div>
