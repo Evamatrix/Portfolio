@@ -6,13 +6,13 @@ export function SocialMediaExperience() {
   const stats = [
     {
       icon: TrendingUp,
-      value: '127%',
+      value: '100%',
       label: 'Engagement Increase',
       color: 'from-primary to-secondary'
     },
     {
       icon: Users,
-      value: '15K+',
+      value: '1.4K+',
       label: 'Followers Gained',
       color: 'from-turquoise to-accent'
     },
@@ -24,7 +24,7 @@ export function SocialMediaExperience() {
     },
     {
       icon: Eye,
-      value: '2.5M+',
+      value: '24.1K+',
       label: 'Total Reach',
       color: 'from-accent to-primary'
     }
@@ -48,7 +48,7 @@ export function SocialMediaExperience() {
     },
     {
       name: 'Visual Storytelling',
-      description: 'Created compelling visual narratives using Canva, Adobe Suite, and video editing tools',
+      description: 'Created compelling visual narratives using Canva, CapCut, and video editing tools',
       icon: Instagram
     }
   ];
@@ -327,25 +327,24 @@ export function SocialMediaExperience() {
                 <Instagram className="w-8 h-8 text-white" />
               </motion.div>
               <div>
-                <h3 className="mb-2">Featured Campaign: Brand Partnership</h3>
+                <h3 className="mb-2">Featured Campaign: YesStyle Influencers</h3>
                 <p className="text-muted-foreground">
-                  Led a 3-month Instagram campaign for a sustainable fashion brand,
-                  focusing on authentic storytelling and user-generated content.
+                  Create content for brand campaigns on Instagram for fashion, home, and beauty products, focusing on trending topics and creative storytelling.
                 </p>
               </div>
             </div>
 
             <div className="grid sm:grid-cols-3 gap-6 mb-6">
               <div>
-                <div className="text-2xl mb-1 text-turquoise">450%</div>
-                <div className="text-sm text-muted-foreground">ROI Increase</div>
+                <div className="text-2xl mb-1 text-turquoise">$700</div>
+                <div className="text-sm text-muted-foreground">Campaign Prizes</div>
               </div>
               <div>
-                <div className="text-2xl mb-1 text-primary">3.2M</div>
+                <div className="text-2xl mb-1 text-primary">500K</div>
                 <div className="text-sm text-muted-foreground">Total Impressions</div>
               </div>
               <div>
-                <div className="text-2xl mb-1 text-secondary">12K</div>
+                <div className="text-2xl mb-1 text-secondary">1K</div>
                 <div className="text-sm text-muted-foreground">New Followers</div>
               </div>
             </div>
@@ -355,13 +354,13 @@ export function SocialMediaExperience() {
                 Instagram Reels
               </span>
               <span className="px-4 py-2 rounded-full bg-white text-sm border border-border">
-                Stories Strategy
+                Product Marketing
               </span>
               <span className="px-4 py-2 rounded-full bg-white text-sm border border-border">
                 Influencer Collaboration
               </span>
               <span className="px-4 py-2 rounded-full bg-white text-sm border border-border">
-                A/B Testing
+                Content Challenge
               </span>
             </div>
           </div>
